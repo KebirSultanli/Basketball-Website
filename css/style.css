@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none !important ;
+    color: white !important;
+}
+.text-orng{
+    color: orange;
+}
+.header{
+    width: 100%;
+    min-height: 40px;
+    display: flex;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center !important;
+}
+.header-left {
+    display: flex;
+    align-items:  center !important;
+    justify-content: space-evenly;
+    width: 40%;
+}
+.header-right{
+    display: flex;
+    
+}
+.header-right i{
+    margin: 5px;
+    font-size: 25px;
+}
