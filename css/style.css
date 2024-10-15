@@ -16,7 +16,7 @@ a {
     min-height: 40px;
     display: flex;
 }
-.container{
+.header .container{
     display: flex;
     justify-content: space-between;
     align-items: center !important;
@@ -40,7 +40,8 @@ a {
 /* Navigation Starts */
 .navigation{
     width: 100%;
-    height: 400px;
+    height: 500px;
+    display: flex;
     background: url(/images/basketball.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -53,6 +54,21 @@ a {
     align-items: center;
     justify-content: space-between;
 }
+.nav-bottom{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+}
+.nav-bottom h1{
+    font-size: 60px;
+}
+.nav-bottom h3{
+    font-size: 40px;
+}
 img{
     width: 100px;
     height: 100px;
@@ -60,13 +76,17 @@ img{
 .pages{
     width: 600px;
     height: 70px;
-    padding-left: 45px;
-    background-color: black;
-    opacity: 50%;
+    padding-left: 50px;
+    background-color: rgba(0, 0, 0, 0.553);
     clip-path: polygon(0 100%, 20% 0, 100% 0, 100% 100%);
     display: flex;
     justify-content: space-evenly;
-    align-items: center;
-    color: white; 
+    align-items: center; 
     font-size: 15px; 
 }
+.pages a:hover{
+    color: rgb(211, 173, 127) !important;
+    border-bottom: .1rem solid rgb(211, 173, 127);
+    padding-bottom: .5rem;
+}
+/* Navigation Ends */
