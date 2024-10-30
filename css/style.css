@@ -169,6 +169,7 @@ img{
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
+    position: relative;
 }
 .invitecard{
     width: 500px;
@@ -185,4 +186,33 @@ img{
     font-size: 70px;
     cursor: pointer;
     opacity: 90%;
+}
+.memberinfo{
+    background-color: white;
+    height: 150px;
+    width: 1150px;
+    position: absolute;
+    bottom: -50px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.member{
+    width: 24%;
+    height: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-right: 1px solid gray;
+}
+.member h2{
+    color: rgb(0, 0, 184);
+}
+.memberinfo-4{
+    border: none;
 }
