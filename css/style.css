@@ -154,3 +154,35 @@ img{
     font-size: 30px;
     color: rgb(60, 60, 255);
 }
+/* Courses End */
+
+/* İnvitation Start */
+
+.invitation{
+    background-image: url(/images/basketballteam.jpg);
+    width: 100%;
+    height: 600px;
+    background-position: 10% 51%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.invitecard{
+    width: 500px;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    padding: 5px;
+    text-align: center;
+}
+.playbutton{
+    font-size: 70px;
+    cursor: pointer;
+    opacity: 90%;
+}
